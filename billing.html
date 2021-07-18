@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Bill</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="billing.css">
+</head>
+<body>
+
+<table id="myTable">
+  <tr>
+    <th>Product</th>
+    <th>Quantity</th>
+    <th>Price&nbsp;&nbsp;(₹)</th>
+    <th>Amount&nbsp;&nbsp;(₹)</th>
+  </tr>
+  <tr>
+    <td>Haldirams Bhujia</td>
+    <td> <input type="text" id="quantity1" onkeyup="myCalculation()" ></td>
+    <td id="price1">5</td>
+    <td id="amount1"></td>
+  </tr>
+
+  <tr>
+    <td>Kurkure Puffcorn</td>
+    <td> <input type="text" id="quantity2" onkeyup="myCalculation()" ></td>
+    <td id="price2">5</td>
+    <td id="amount2"></td>
+  </tr>
+  <tr>
+    <td>Oreo Biscuit</td>
+    <td> <input type="text" id="quantity3" onkeyup="myCalculation()" ></td>
+    <td id="price3">10</td>
+    <td id="amount3"></td>
+  </tr>
+  <tr>
+    <td>Surf Excel</td>
+    <td> <input type="text" id="quantity4" onkeyup="myCalculation()"></td>
+    <td id="price4">29</td>
+    <td id="amount4"></td>
+  </tr>
+  <tr>
+    <td>Kiwi juice</td>
+    <td> <input type="text" id="quantity5" onkeyup="myCalculation()"></td>
+    <td id="price5">40</td>
+    <td id="amount5"></td>
+  </tr>
+  <tr>
+    <td>Nilons Ketchup</td>
+    <td> <input type="text" id="quantity6" onkeyup="myCalculation()"></td>
+    <td id="price6">15</td>
+    <td id="amount6"></td>
+  </tr>
+  <tr>
+    <td>Dettol cool</td>
+    <td> <input type="text" id="quantity7" onkeyup="myCalculation()" ></td>
+    <td id="price7">10</td>
+    <td id="amount7"></td>
+  </tr>
+  <tr>
+    <td>Oral-B brush</td>
+    <td> <input type="text" id="quantity8" onkeyup="myCalculation()" ></td>
+    <td id="price8">25</td>
+    <td id="amount8"></td>
+  </tr>
+  <tr>
+    <td>Good-Night oil</td>
+    <td> <input type="text" id="quantity9" onkeyup="myCalculation()" ></td>
+    <td id="price9">75</td>
+    <td id="amount9"></td>
+  </tr>
+  <tr>
+    <td>Pritambari</td>
+    <td> <input type="text" id="quantity10" onkeyup="myCalculation()" ></td>
+    <td id="price10">58</td>
+    <td id="amount10"></td>
+  </tr>
+
+  <tr >
+    <td id="t1"><button onclick="myCalculation()">Total</button></td>
+    <td id="t2"></td>
+    <td id="t3"></td>
+    <td id="sum"></td>
+  </tr>
+</table>
+
+
+<script src="billing.js"></script>
+</body>
+</html>

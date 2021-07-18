@@ -1,0 +1,62 @@
+ #myTable{
+     font-family: sans-serif;
+     border-collapse: collapse;
+     width:100%;
+     height: auto;
+ }
+
+ #myTable th, #myTable td{
+    border: 2px solid white;
+    padding: 8px;   
+ }
+
+ #myTable tr:nth-child(even){background-color: lemonchiffon;}
+ #myTable tr:nth-child(odd){background-color: bisque;}
+
+ #myTable tr:hover {background-color: moccasin;}
+
+ #myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: palevioletred;
+    color: white;
+ }
+
+ #myTable button {
+    padding: 2px;
+    font-size: 18px;
+    height: 50px;
+    background-color: lightcoral;
+    text-align: center;
+    width: 100px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+ }
+
+ #myTable input {
+    padding: 2px;
+    text-align: left;
+    border: none;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #FCABAA;
+ }
+
+ #myTable #t2 {
+      border-style: hidden;
+ }
+ #myTable #t3 {
+   border-style: hidden;
+}
+#myTable #sum {
+   background-color:lightcoral ;
+   color: white;
+   border-radius: 20px;
+   width: 250px;
+   text-align: center;
+   font-size: 18px;
+}
